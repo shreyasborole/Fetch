@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: scoup
+Implementation-Version: 1.0.0
+Specification-Vendor: com.themillhousegroup
+Specification-Title: scoup
+Implementation-Vendor-Id: com.themillhousegroup
+Specification-Version: 1.0.0
+Implementation-URL: https://github.com/themillhousegroup/scoup
+Implementation-Vendor: com.themillhousegroup
+

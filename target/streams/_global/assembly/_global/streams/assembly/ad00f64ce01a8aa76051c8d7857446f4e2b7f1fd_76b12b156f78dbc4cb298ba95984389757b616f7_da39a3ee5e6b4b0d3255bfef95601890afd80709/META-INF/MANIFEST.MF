@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Specification-Title: scala argparse
+Specification-Version: 1.1.7
+Specification-Vendor: de.halcony
+Implementation-Title: scala argparse
+Implementation-Version: 1.1.7
+Implementation-Vendor: de.halcony
+Implementation-Vendor-Id: de.halcony
+Implementation-URL: https://github.com/simkoc/scala-argparse
+Vcs-Release-Hash: e8082cb7ab8f612ecc82a74cc34400964a910c6a
+

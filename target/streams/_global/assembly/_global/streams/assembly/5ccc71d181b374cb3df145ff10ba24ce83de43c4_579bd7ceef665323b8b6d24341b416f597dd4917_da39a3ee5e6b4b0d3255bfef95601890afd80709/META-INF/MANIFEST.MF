@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: binders
+Specification-Version: 1.3.0
+Specification-Vendor: com.hypertino
+Implementation-Title: binders
+Implementation-Version: 1.3.0
+Implementation-Vendor: com.hypertino
+Implementation-Vendor-Id: com.hypertino
+

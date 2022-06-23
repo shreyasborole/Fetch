@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: enumeratum-macros
+Implementation-Version: 1.6.1
+Specification-Vendor: com.beachape
+Specification-Title: enumeratum-macros
+Implementation-Vendor-Id: com.beachape
+Specification-Version: 1.6.1
+Implementation-Vendor: com.beachape
+

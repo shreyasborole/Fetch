@@ -1,0 +1,42 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(assembly, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: assembly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[31merror[0m] [0m[0m1 error was encountered during merge[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.RuntimeException: deduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shreyas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm-analysis/7.1/asm-analysis-7.1.jar:module-info.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shreyas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm-commons/7.1/asm-commons-7.1.jar:module-info.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shreyas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm-tree/7.1/asm-tree-7.1.jar:module-info.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shreyas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm-util/7.1/asm-util-7.1.jar:module-info.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shreyas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm/7.1/asm-7.1.jar:module-info.class[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtassembly.Assembly$.applyStrategies(Assembly.scala:203)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtassembly.Assembly$.x$1$lzycompute$1(Assembly.scala:47)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtassembly.Assembly$.x$1$1(Assembly.scala:45)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtassembly.Assembly$.stratMapping$lzycompute$1(Assembly.scala:45)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtassembly.Assembly$.stratMapping$1(Assembly.scala:45)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtassembly.Assembly$.inputs$lzycompute$1(Assembly.scala:128)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtassembly.Assembly$.inputs$1(Assembly.scala:118)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtassembly.Assembly$.apply(Assembly.scala:145)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbtassembly.Assembly$.$anonfun$assemblyTask$1(Assembly.scala:320)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:291)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:829)[0m
+[0m[[0m[31merror[0m] [0m[0m([31massembly[0m) deduplicate: different file contents found in the following:[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shreyas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm-analysis/7.1/asm-analysis-7.1.jar:module-info.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shreyas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm-commons/7.1/asm-commons-7.1.jar:module-info.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shreyas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm-tree/7.1/asm-tree-7.1.jar:module-info.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shreyas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm-util/7.1/asm-util-7.1.jar:module-info.class[0m
+[0m[[0m[31merror[0m] [0m[0m/home/shreyas/.cache/coursier/v1/https/repo1.maven.org/maven2/org/ow2/asm/asm/7.1/asm-7.1.jar:module-info.class[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 4 s, completed 18-Jan-2022, 4:44:10 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: expression-parser
+Specification-Version: 0.3.0
+Specification-Vendor: com.hypertino
+Implementation-Title: expression-parser
+Implementation-Version: 0.3.0
+Implementation-Vendor: com.hypertino
+Implementation-Vendor-Id: com.hypertino
+

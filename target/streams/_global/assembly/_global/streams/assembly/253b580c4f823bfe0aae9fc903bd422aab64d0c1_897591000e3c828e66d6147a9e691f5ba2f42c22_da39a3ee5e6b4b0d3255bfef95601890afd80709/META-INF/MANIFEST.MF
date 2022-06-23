@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: inflector
+Specification-Version: 1.0.13
+Specification-Vendor: com.hypertino
+Implementation-Title: inflector
+Implementation-Version: 1.0.13
+Implementation-Vendor: com.hypertino
+Implementation-Vendor-Id: com.hypertino
+

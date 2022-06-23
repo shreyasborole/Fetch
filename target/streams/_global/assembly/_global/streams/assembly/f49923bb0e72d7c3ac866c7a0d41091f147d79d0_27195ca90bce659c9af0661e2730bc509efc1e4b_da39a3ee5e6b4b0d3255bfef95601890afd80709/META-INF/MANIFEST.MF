@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: classutil
+Implementation-Version: 1.5.1
+Specification-Vendor: org.clapper
+Specification-Title: classutil
+Implementation-Vendor-Id: org.clapper
+Specification-Version: 1.5.1
+Implementation-URL: http://software.clapper.org/classutil/
+Implementation-Vendor: org.clapper
+

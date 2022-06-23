@@ -1,0 +1,45 @@
+2022.01.26 17:04:31 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /mnt/Data/BACKUP_Revised/workspace/Projects/Fetch/.metals/lsp.trace.json or /home/shreyas/.cache/metals/lsp.trace.json[0m
+2022.01.26 17:04:32 INFO  logging to file /mnt/Data/BACKUP_Revised/workspace/Projects/Fetch/.metals/metals.log[0m
+2022.01.26 17:04:32 INFO  Started: Metals version 0.11.1 in workspace '/mnt/Data/BACKUP_Revised/workspace/Projects/Fetch' for client Visual Studio Code 1.63.2.[0m
+2022.01.26 17:04:32 INFO  Parse release: 11.0.13[0m
+2022.01.26 17:04:34 INFO  time: initialize in 2.83s[0m
+2022.01.26 17:04:35 WARN  Build server is not auto-connectable.[0m
+2022.01.26 17:04:35 WARN  no build target for: /mnt/Data/BACKUP_Revised/workspace/Projects/Fetch/src/main/scala/plugins/Calc.scala[0m
+2022.01.26 17:04:35 WARN  no build target for: /mnt/Data/BACKUP_Revised/workspace/Projects/Fetch/src/main/scala/plugins/DayInHistory.scala[0m
+2022.01.26 17:04:42 INFO  no build target found for /mnt/Data/BACKUP_Revised/workspace/Projects/Fetch/src/main/scala/plugins/DayInHistory.scala. Using presentation compiler with project's scala-library version: 3.1.0[0m
+2022.01.26 17:04:45 INFO  time: code lens generation in 8.34s[0m
+2022.01.26 17:04:45 INFO  time: code lens generation in 7.89s[0m
+2022.01.26 17:04:45 INFO  time: code lens generation in 7.89s[0m
+2022.01.26 17:04:45 INFO  time: code lens generation in 8.33s[0m
+2022.01.26 17:04:45 INFO  time: code lens generation in 8.66s[0m
+2022.01.26 17:04:45 INFO  time: code lens generation in 8.66s[0m
+Jan 26, 2022 5:04:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+Jan 26, 2022 5:04:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20
+Jan 26, 2022 5:04:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+Jan 26, 2022 5:04:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21
+Jan 26, 2022 5:04:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24
+2022.01.26 17:04:45 WARN  no build target for: /mnt/Data/BACKUP_Revised/workspace/Projects/Fetch/src/main/scala/plugins/DayInHistory.scala[0m
+2022.01.26 17:07:29 WARN  no build target for: /mnt/Data/BACKUP_Revised/workspace/Projects/Fetch/src/main/scala/plugins/DayInHistory.scala[0m
+2022.01.26 17:07:37 WARN  no build target for: /mnt/Data/BACKUP_Revised/workspace/Projects/Fetch/src/main/scala/plugins/DayInHistory.scala[0m
+2022.01.26 17:08:16 WARN  no build target for: /mnt/Data/BACKUP_Revised/workspace/Projects/Fetch/src/main/scala/plugins/DayInHistory.scala[0m
+2022.01.26 17:08:20 WARN  no build target for: /mnt/Data/BACKUP_Revised/workspace/Projects/Fetch/src/main/scala/plugins/DayInHistory.scala[0m
+2022.01.26 17:08:35 WARN  no build target for: /mnt/Data/BACKUP_Revised/workspace/Projects/Fetch/src/main/scala/plugins/DayInHistory.scala[0m
+Exception in thread "pool-3-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Jan 26, 2022 5:08:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 250
+2022.01.26 17:08:42 WARN  no build target for: /mnt/Data/BACKUP_Revised/workspace/Projects/Fetch/src/main/scala/plugins/DayInHistory.scala[0m
+2022.01.26 17:08:56 WARN  no build target for: /mnt/Data/BACKUP_Revised/workspace/Projects/Fetch/src/main/scala/plugins/DayInHistory.scala[0m
+2022.01.26 17:09:00 WARN  no build target for: /mnt/Data/BACKUP_Revised/workspace/Projects/Fetch/src/main/scala/plugins/DayInHistory.scala[0m
+2022.01.26 17:09:05 WARN  no build target for: /mnt/Data/BACKUP_Revised/workspace/Projects/Fetch/src/main/scala/plugins/DayInHistory.scala[0m
+2022.01.26 17:09:08 INFO  shutting down Metals[0m
